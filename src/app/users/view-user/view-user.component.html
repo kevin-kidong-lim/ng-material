@@ -1,0 +1,13 @@
+<p>view-user works!</p>
+<div *ngIf="userDetail">
+  {{ userDetail.name}}
+  {{ userDetail | json}}
+</div>
+<mat-card class="user-detail" *ngIf="userDetail">
+  <mat-card-title>
+    {{ userDetail.name}}
+  </mat-card-title>
+  <mat-card-content>
+    {{ userDetail.email}}
+  </mat-card-content>
+</mat-card>

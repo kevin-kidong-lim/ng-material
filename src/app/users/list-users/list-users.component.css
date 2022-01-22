@@ -1,0 +1,15 @@
+
+.action-link {
+  padding: 10px;
+}
+.list-users{
+  margin:10px;
+}
+.username {
+  min-width: 300px;
+}
+table {
+  width: 97%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
